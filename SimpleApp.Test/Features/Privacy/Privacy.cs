@@ -18,8 +18,10 @@ namespace Tests
         {
             HttpResponseMessage response = GetHttpClient().GetAsync("/Home/Privacy").Result;
             string rawhtml = response.Content.ReadAsStringAsync().Result;
-            rawhtml.ShouldMatchApproved();
-
+            rawhtml.ShouldMatchApproved(c =>
+            {
+                c.SubFolder("Approvals");
+            });
         }
     }
 }

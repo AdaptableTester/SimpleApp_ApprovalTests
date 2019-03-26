@@ -20,12 +20,10 @@ namespace Tests
         {
             HttpResponseMessage response = GetHttpClient().GetAsync("/Home").Result;
             string rawhtml = response.Content.ReadAsStringAsync().Result;
-            rawhtml.ShouldMatchApproved();
-                //(c =>
-            //{
-            //    c.SubFolder("Approvals");
-            //    //c.WithScrubber(TimeScrubber);
-            //});
+            rawhtml.ShouldMatchApproved(c =>
+            {
+                c.SubFolder("Approvals");
+            });
 
 
 
