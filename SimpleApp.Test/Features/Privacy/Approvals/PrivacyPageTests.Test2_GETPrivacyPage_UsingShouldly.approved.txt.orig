@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page - SimpleAPP</title>
+    <title>Privacy Policy - SimpleAPP</title>
 
     
         <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
@@ -38,7 +38,7 @@
 
     <div id="cookieConsent" class="alert alert-info alert-dismissible fade show" role="alert">
         Use this space to summarize your privacy and cookie use policy. <a href="/Home/Privacy">Learn More</a>.
-        <button type="button" class="accept-policy close" data-dismiss="alert" aria-label="Close" data-cookie-string=".AspNet.Consent=yes; expires=Thu, 18 Feb 2021 17:05:56 GMT; path=/; samesite=lax">
+        <button type="button" class="accept-policy close" data-dismiss="alert" aria-label="Close" data-cookie-string=".AspNet.Consent=yes; expires=Wed, 25 Mar 2020 17:50:12 GMT; path=/; samesite=lax">
             <span aria-hidden="true">Accept</span>
         </button>
     </div>
@@ -52,11 +52,9 @@
     </script>
 
         <main role="main" class="pb-3">
-            
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+            <h1>Privacy Policy</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
 
         </main>
     </div>

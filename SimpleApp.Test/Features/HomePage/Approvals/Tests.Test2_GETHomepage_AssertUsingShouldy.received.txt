@@ -38,7 +38,7 @@
 
     <div id="cookieConsent" class="alert alert-info alert-dismissible fade show" role="alert">
         Use this space to summarize your privacy and cookie use policy. <a href="/Home/Privacy">Learn More</a>.
-        <button type="button" class="accept-policy close" data-dismiss="alert" aria-label="Close" data-cookie-string=".AspNet.Consent=yes; expires=Wed, 25 Mar 2020 17:49:37 GMT; path=/; samesite=lax">
+        <button type="button" class="accept-policy close" data-dismiss="alert" aria-label="Close" data-cookie-string=".AspNet.Consent=yes; expires=Thu, 18 Feb 2021 17:05:56 GMT; path=/; samesite=lax">
             <span aria-hidden="true">Accept</span>
         </button>
     </div>

@@ -17,7 +17,7 @@ namespace Tests
         {
             //config/creation of website
             var builder = new WebHostBuilder()
-                .UseContentRoot(@"C:\Users\shail\source\repos\SimpleAPP\SimpleAPP")
+                .UseContentRoot(@"C:\Users\shail\source\repos\SimpleApp_ApprovalTests\SimpleAPP")
                 .UseEnvironment("Development")
                 .UseStartup<SimpleAPP.Startup>();
 
